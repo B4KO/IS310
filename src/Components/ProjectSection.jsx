@@ -32,11 +32,10 @@ const ProjectSection = ({ projects }) => {
           transition={{ duration: 1.5 }}
           viewport={{ once: true }}
         >
-          <h1 className="text-5xl font-bold">Previous Projects</h1>
+          <h1 className="text-5xl font-bold">Tidligere Prosjekter</h1>
           <p className="py-6">
-            Here are some of the projects we've worked on. Our team has a
-            diverse portfolio of completed projects that showcase our skills and
-            expertise.
+            Her er noen prosjekter vi har jobbet på. Vi har en diverse porfølje
+            med ferdige prosjekter som viser våre ferdigheter og ekspertise.
           </p>
         </motion.div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-6 lg:mt-0 w-full">

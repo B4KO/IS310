@@ -5,6 +5,7 @@ import SkillsSection from "./Components/SkillsSection";
 import ContactForm from "./Components/ContactForm";
 import TeamSection from "./Components/TeamSection";
 import ProjectSection from "./Components/ProjectSection";
+import ThemeToggle from "./Components/ThemeToggle";
 
 const MainPage = () => {
   const skills = [
@@ -75,6 +76,7 @@ const MainPage = () => {
           window.scrollBy({ top: window.innerHeight, behavior: "smooth" })
         }
       />
+      <ThemeToggle />
       <InfoSection
         imageUrl="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
         title="Vi er..."
