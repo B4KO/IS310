@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
 
+
   return (
     <>
   <div
@@ -18,13 +19,13 @@ function App() {
     <div className="hero-overlay bg-opacity-60"></div>
     <div className="hero-content text-neutral-content text-center">
       <div className="max-w-md">
-        <h1 className="mb-5 text-9xl font-bold">Gruppe 21</h1>
-        <h3 className="mb-5 text-lg">
+        <h1 className="mb-5 text-9xl font-bold text-white">Gruppe 21</h1>
+        <h3 className="mb-5 text-lg text-white">
         Vår lidenskap for teknologi, kombinert med en sterk teoretisk bakgrunn
  og praktisk erfaring, gjør oss til et dynamisk team som er klare for å møte 
 morgendagens utfordringer. 
         </h3>
-        <button className="btn btn-primary">Les mer</button>
+        <button className="btn btn-primary" onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}>Les mer</button>
       </div>
     </div>
   </div>
@@ -240,7 +241,6 @@ morgendagens utfordringer.
     </div>
   </div>
 </div>
-
 
 <div className="hero bg-base-200 min-h-screen">
   <div className="hero-content text-center">
