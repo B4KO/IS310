@@ -4,6 +4,7 @@ import InfoSection from "./Components/InfoSection";
 import SkillsSection from "./Components/SkillsSection";
 import ContactForm from "./Components/ContactForm";
 import TeamSection from "./Components/TeamSection";
+import ProjectSection from "./Components/ProjectSection";
 
 const MainPage = () => {
   const skills = [
@@ -43,6 +44,25 @@ const MainPage = () => {
     // ... Add 5 more team members with similar structure
   ];
 
+  const projects = [
+    {
+      imageUrl: "https://via.placeholder.com/150",
+      title: "Project One",
+      description: "This is a description of project one.",
+    },
+    {
+      imageUrl: "https://via.placeholder.com/150",
+      title: "Project Two",
+      description: "This is a description of project two.",
+    },
+    {
+      imageUrl: "https://via.placeholder.com/150",
+      title: "Project Three",
+      description: "This is a description of project three.",
+    },
+    // Add more projects as needed
+  ];
+
   return (
     <>
       <HeroSection
@@ -63,6 +83,7 @@ const MainPage = () => {
       />
       <SkillsSection skills={skills} />
       <TeamSection teamMembers={teamMembers} />
+      <ProjectSection projects={projects} />
       <ContactForm />
     </>
   );

@@ -1,11 +1,18 @@
 import React from "react";
+import { motion } from "framer-motion";
 import Card from "./Card";
 
 const TeamSection = ({ teamMembers }) => {
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content text-center">
-        <div className="flex flex-wrap justify-center items-center space-x-4 space-y-4">
+        <motion.div
+          className="flex flex-wrap justify-center items-center space-x-4 space-y-4"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
+          viewport={{ once: true }}
+        >
           {teamMembers.map((member, index) => (
             <Card
               key={index}
@@ -16,7 +23,7 @@ const TeamSection = ({ teamMembers }) => {
               githubUrl={member.githubUrl}
             />
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
