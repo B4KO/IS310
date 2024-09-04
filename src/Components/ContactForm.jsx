@@ -25,7 +25,7 @@ const ContactForm = () => {
       });
 
       if (response.ok) {
-        document.getElementById('my_modal_2').showModal()
+        document.getElementById('modal_success').showModal()
         setName(''); // Clear name input
         setMessage(''); // Clear message input
       } else {
@@ -77,7 +77,7 @@ const ContactForm = () => {
             </div>
 
     
-              <dialog id="my_modal_2" className="modal">
+              <dialog id="modal_success" className="modal">
                 <div className="modal-box">
                   <h3 className="font-bold text-lg">Meldingen ble sendt!</h3>
                   <p className="py-4">
