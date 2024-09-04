@@ -7,6 +7,8 @@ import TeamSection from "./Components/TeamSection";
 import ProjectSection from "./Components/ProjectSection";
 import ThemeToggle from "./Components/ThemeToggle";
 import StevenImage from './Steven.png';
+import MartinImage from './Martin.png';
+import GabrielImage from './Gabriel.png';
 
 
 const MainPage = () => {
@@ -43,6 +45,22 @@ const MainPage = () => {
       description: "23 år gammel fra Kristiansand og kan bidra med erfaring innenfor design og data analyse. I løpet av studiet, har jeg tilegnet seg kompetanse i UI og UX, tjenestedesign, prosjektarbeid, databasehåndtering og webutvikling. Jeg liker å komme meg til nye situasjoner og miljøer for å utfordre, lære og utvikle meg som person. Har hatt lenge interesse innenfor teknologi, data analyse og tegning. Alltid klar og villig til å takle nye oppgaver og utfordringer, og bidra til veksten av gruppen og bedriften.",
       linkedinUrl: "https://www.linkedin.com/in/steven-minh-tam-nguyen-92406b163",
       githubUrl: "https://www.github.com/StevenMTN",
+    },
+    {
+      imageUrl:
+        MartinImage,
+      title: "Martin Malja",
+      description: " 24 år gammel og er fra Oslo. Jeg har under studiet lært om UI, tjenestedesign, prosjektarbeid, databasehåndtering og webutvikling. Jeg ser på meg selv som aktiv og hyggelig gutt som samarbeider godt med andre. På fritiden så liker jeg å spille, er interessert i ny teknologi og være med venner. Jeg er alltid åpen for nye utfordringer og hjelper alltid hvis det trengs i gruppen. ",
+      linkedinUrl: "https://www.linkedin.com/in/martin-malja-854b8a326/",
+      githubUrl: "https://github.com/Huskarl10 ",
+    },
+    {
+      imageUrl:
+        GabrielImage,
+      title: "Gabriel Michael Molinski",
+      description: "23 år gammel student fra Kristiansand, med en lidenskap for teknologi og problemløsning. Jeg elsker å dykke ned i koding og utforske nye måter å skape innovative løsninger på. Med et øye for detaljer og et ønske om å lære, ser jeg frem til å bidra til spennende prosjekter og utvikle meg videre som en del av dette teamet.",
+      linkedinUrl: "https://no.linkedin.com/in/gabriel-michael-molinski-bb7917324",
+      githubUrl: "https://github.com/B4KO",
     },
     // ... Add 5 more team members with similar structure
   ];
