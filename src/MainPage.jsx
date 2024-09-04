@@ -9,6 +9,8 @@ import ThemeToggle from "./Components/ThemeToggle";
 import StevenImage from "./Steven.png";
 import MartinImage from "./Martin.png";
 import GabrielImage from "./Gabriel.png";
+import SteinImage from "./Stein.png";
+import NicoImage from "./Nico.png";
 import NostedImage from "./Nosted.jpg";
 import PaddlegledenImage from "./Paddlegleden.jpg";
 
@@ -64,6 +66,24 @@ const MainPage = () => {
       linkedinUrl:
         "https://no.linkedin.com/in/gabriel-michael-molinski-bb7917324",
       githubUrl: "https://github.com/B4KO",
+    },
+    {
+      imageUrl: SteinImage,
+      title: "Stein Arild Vestergaard Danielsen",
+      description:
+        "Jeg er 21 år gammel, bosatt i Mandal, student hos UiA Kristiansand, og klar for arbeidslivet. Som mine gruppepartnere har jeg vært involvert i prosjektarbeid innenfor webutvikling, tjenestedesign, og databaser. Jeg er spent på hvor utdanning min og karrieren min tar meg videre.",
+      linkedinUrl:
+        "https://www.linkedin.com/in/stein-arild-vestergaard-danielsen-a84893326/",
+      githubUrl: "https://github.com/SteinArildN",
+    },
+    {
+      imageUrl: NicoImage,
+      title: "Nicolai Alexander Tomulevski Bjerregård",
+      description:
+        "Jeg er 24 år gammel, fra Oslo. Kunnskapene jeg har tilegnet meg gjennom studie, dekker områder som webutvikling, informasjonssystemsikkerhet, prosjektarbeid, samt tjenestedesign og UI/UX design. Jeg har en interesse for mennesker. Spesifikt hvordan forskjellige løsninger påvirker forskjellige mennesker, med de utfordringene de eventuelt har. Har lang erfaring med arbeid med barn, derfor vil jeg kunne bringe inn verdifull erfaring som kan spille positivt inn, rundt utvikling av systemer for denne aldersgruppen.",
+      linkedinUrl:
+        "https://www.linkedin.com/in/nicolai-a-t-bjerregård-1052101a2",
+      githubUrl: "https://github.com/natb0412",
     },
     // ... Add 5 more team members with similar structure
   ];
