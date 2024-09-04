@@ -9,6 +9,8 @@ import ThemeToggle from "./Components/ThemeToggle";
 import StevenImage from './Steven.png';
 import MartinImage from './Martin.png';
 import GabrielImage from './Gabriel.png';
+import NostedImage from './Nosted.jpg';
+import PaddlegledenImage from './Paddlegleden.jpg';
 
 
 const MainPage = () => {
@@ -16,25 +18,25 @@ const MainPage = () => {
     {
       icon: "💻",
       title: "Web Development",
-      skills: "HTML, CSS, JavaScript, React, Vue.js",
+      skills: "HTML, CSS, JavaScript, React, .NET",
     },
-    { icon: "🖌️", title: "Design", skills: "UI/UX, Adobe XD, Figma" },
+    { icon: "🖌️", title: "Design", skills: "UI/UX, Figma" },
     {
-      icon: "🔒",
-      title: "Cybersecurity",
-      skills: "Penetration Testing, Security Audits",
-    },
+      "icon": "🔒",
+      "title": "Cybersecurity",
+      "skills": "Kryptografi, Nettsted Sikkerhet, OWASP"
+    },    
     {
-      icon: "📱",
-      title: "Mobile Development",
-      skills: "iOS, Android, React Native",
-    },
+      "icon": "🗄️",
+      "title": "Databaser",
+      "skills": "MySQL, MongoDB, PostgreSQL"
+    },    
     {
-      icon: "☁️",
-      title: "Cloud Computing",
-      skills: "AWS, Azure, Google Cloud",
-    },
-    { icon: "🛠️", title: "DevOps", skills: "CI/CD, Docker, Kubernetes" },
+      "icon": "🗓️",
+      "title": "Prosjekt planlegging",
+      "skills": "Scrum, Kanban, Trello, Waterfall, Jira"
+    },    
+    { icon: "🛠️", title: "DevOps", skills: "CI/CD, Docker" },
   ];
 
   const teamMembers = [
@@ -67,21 +69,19 @@ const MainPage = () => {
 
   const projects = [
     {
-      imageUrl: "https://via.placeholder.com/150",
-      title: "Project One",
-      description: "This is a description of project one.",
+      imageUrl: NostedImage,
+      title: "Nøsted &",
+      description: "Digitalisering av Serviceordre",
+      longer_description: "Nøsted & AS, en ledende norsk industrikonsern, ønsket å modernisere prosessen for håndtering av serviceordrer. Gjennom vårt prosjekt utviklet vi en skreddersydd web-applikasjon som digitaliserer hele prosessen fra mottak til oppfølging av serviceordrer for deres produktsegment IGLAND."
     },
     {
-      imageUrl: "https://via.placeholder.com/150",
-      title: "Project Two",
-      description: "This is a description of project two.",
+      imageUrl: PaddlegledenImage,
+      title: "Paddlegleden",
+      description: "Digital Plattform for Padlegleden",
+      longer_description: "Dette prosjektet var en del av emnet IS-112 Tjenestedesign og forretningsmodeller, og ble gjennomført i samarbeid med Padlegleden. Sammen med åtte IT-studenter jobbet Padlegleden for å utvikle en digital plattform som gjør det enklere for profesjonelle aktører å legge ut kurs, samt for potensielle deltakere å få en oversikt over tilgjengelige aktiviteter."
     },
-    {
-      imageUrl: "https://via.placeholder.com/150",
-      title: "Project Three",
-      description: "This is a description of project three.",
-    },
-    // Add more projects as needed
+
+
   ];
 
   return (

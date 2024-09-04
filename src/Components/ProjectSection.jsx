@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const ProjectCard = ({ imageUrl, title, description }) => {
+const ProjectCard = ({ imageUrl, title, description, longer_description }) => {
   return (
     <motion.div
       className="card bg-base-100 shadow-xl"
@@ -16,6 +16,17 @@ const ProjectCard = ({ imageUrl, title, description }) => {
       <div className="card-body items-center text-center">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
+        {/* Open the modal using document.getElementById('ID').showModal() method */}
+        <button className="btn" onClick={()=>document.getElementById('my_modal_2').showModal()}>Les mer</button>
+        <dialog id="my_modal_2" className="modal">
+          <div className="modal-box">
+            <h3 className="font-bold text-lg">{title}</h3>
+            <p className="py-4">{ longer_description }</p>
+          </div>
+          <form method="dialog" className="modal-backdrop">
+            <button>close</button>
+          </form>
+        </dialog>
       </div>
     </motion.div>
   );
@@ -45,6 +56,7 @@ const ProjectSection = ({ projects }) => {
               imageUrl={project.imageUrl}
               title={project.title}
               description={project.description}
+              longer_description={project.longer_description}
             />
           ))}
         </div>
