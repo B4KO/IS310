@@ -107,7 +107,7 @@ const MainPage = () => {
       <TeamSection teamMembers={teamMembers} />
       <ProjectSection projects={projects} />
       <ContactForm />
-    </>
+    </>  
   );
 };
 
