@@ -6,6 +6,8 @@ import ContactForm from "./Components/ContactForm";
 import TeamSection from "./Components/TeamSection";
 import ProjectSection from "./Components/ProjectSection";
 import ThemeToggle from "./Components/ThemeToggle";
+import StevenImage from './Steven.png';
+
 
 const MainPage = () => {
   const skills = [
@@ -36,11 +38,11 @@ const MainPage = () => {
   const teamMembers = [
     {
       imageUrl:
-        "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
-      title: "Shoes!",
-      description: "If a dog chews shoes whose shoes does he choose?",
-      linkedinUrl: "#",
-      githubUrl: "#",
+        StevenImage,
+      title: "Steven Minh-Tam Nguyen",
+      description: "23 år gammel fra Kristiansand og kan bidra med erfaring innenfor design og data analyse. I løpet av studiet, har jeg tilegnet seg kompetanse i UI og UX, tjenestedesign, prosjektarbeid, databasehåndtering og webutvikling. Jeg liker å komme meg til nye situasjoner og miljøer for å utfordre, lære og utvikle meg som person. Har hatt lenge interesse innenfor teknologi, data analyse og tegning. Alltid klar og villig til å takle nye oppgaver og utfordringer, og bidra til veksten av gruppen og bedriften.",
+      linkedinUrl: "https://www.linkedin.com/in/steven-minh-tam-nguyen-92406b163",
+      githubUrl: "https://www.github.com/StevenMTN",
     },
     // ... Add 5 more team members with similar structure
   ];
