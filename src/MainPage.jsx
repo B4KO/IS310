@@ -12,6 +12,7 @@ import GabrielImage from "./Gabriel.png";
 import SteinImage from "./Stein.png";
 import NicoImage from "./Nico.png";
 import NostedImage from "./Nosted.jpg";
+import DanielImage from "./Daniel.png";
 import PaddlegledenImage from "./Paddlegleden.jpg";
 
 const MainPage = () => {
@@ -85,6 +86,14 @@ const MainPage = () => {
         "https://www.linkedin.com/in/nicolai-a-t-bjerregård-1052101a2",
       githubUrl: "https://github.com/natb0412",
     },
+    {
+      "imageUrl": DanielImage,
+      "title": "Daniel Dahle Gray",
+      "description": "Daniel D. Gray er en engasjert IT-student på 33 år fra England, med variert arbeidserfaring og stor interesse for å utvikle brukersentriske systemer. Han er for tiden i praksis som konsulent hos SmartOrg i Arendal, hvor han har fokus på onboarding, kundeopplevelse, og funksjonstesting på SmartOrg’s digitale plattform. Daniel sine styrker ligger i å identifisere brukerbehov og helhetlige løsninger; som aspirerende systemutvikler ønsker han å kunne bryne seg på utfordringer som krever et dypdykk i populære- og nyttige verktøy for innhenting, behandling eller visualisering av data.",
+      "linkedinUrl": "https://www.linkedin.com/in/daniel-dahle-gray-2272501bb/",
+      "githubUrl": "https://github.com/danieldg91"
+    }
+    
     // ... Add 5 more team members with similar structure
   ];
 
