@@ -120,7 +120,7 @@ const MainPage = () => {
     <>
       <HeroSection
         backgroundUrl="https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        title="Gruppe 21"
+        title="Gruppe 19"
         description="Vår lidenskap for teknologi, kombinert med en sterk teoretisk bakgrunn
         og praktisk erfaring, gjør oss til et dynamisk team som er klare for å møte morgendagens utfordringer."
         buttonLabel="Les mer"
