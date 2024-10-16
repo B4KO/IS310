@@ -130,7 +130,6 @@ const MainPage = () => {
       />
       <ThemeToggle />
       <InfoSection
-        imageUrl="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
         title="Vi er..."
         description="Fem unike individer, hver med sine spesifikke ferdigheter og interesser. Sammen utfyller vi hverandre og skaper en sterk enhet som er klar til å ta på oss ulike utfordringer."
         buttonLabel="Get Started"
