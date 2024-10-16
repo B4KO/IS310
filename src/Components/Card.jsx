@@ -4,7 +4,7 @@ const Card = ({ imageUrl, title, description, linkedinUrl, githubUrl }) => {
   return (
     <div className="card bg-base-100 w-96 shadow-xl min-h-[300px]">
       <figure className="px-10 pt-10">
-        <img src={imageUrl} alt={title} className="w-64 h-64 object-cover mx-auto" />
+        <img src={imageUrl} alt={title} className="w-64 h-64 object-cover mx-auto " />
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title">{title}</h2>
